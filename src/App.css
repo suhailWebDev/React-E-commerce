@@ -151,3 +151,33 @@ nav ion-icon{
     gap: 20px;
   }
 }
+
+.hero{
+  background-image:url('../src/Images/freestocks-_3Q3tsJ01nc-unsplash.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-heading{
+  font-size: 72px;
+}
+
+.stop{
+  color:rgb(0, 157, 255);
+}
+
+#btn-shop{
+  background-color: #61dafb;
+  color:azure;
+  height:60px;
+  width: 100px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+#btn-shop:hover,
+#btn-shop:visited{
+  background-color: springgreen;
+  transform: scale(1.2);
+}

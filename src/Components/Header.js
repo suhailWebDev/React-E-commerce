@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Images/logo 1.png';
-import {FiShoppingCart} from 'react-icons/fi'
+import {FiShoppingCart} from 'react-icons/fi';
 
 const Header = () => {
   return (
