@@ -3,7 +3,7 @@ import HeroSection from './HeroSection'
 
 const About = () => {
   const data={
-    name:"E-Commerce",
+    name:"E-com",
   }
   return (
     <>

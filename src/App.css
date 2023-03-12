@@ -107,6 +107,11 @@ nav ion-icon{
   transform: scale(1.2);
 }
 
+.service-icon{
+  color: blue;
+  font-size: 40px;
+}
+
 
 
 @media (max-width:1000px){
@@ -150,6 +155,14 @@ nav ion-icon{
     flex-direction: column;
     gap: 20px;
   }
+  .service-icon{
+    font-size: 24px;
+  }
+  .brand-company{
+    display: flex;
+    flex-direction: column;
+    gap:2;
+  }
 }
 
 .hero{
@@ -180,4 +193,21 @@ nav ion-icon{
 #btn-shop:visited{
   background-color: springgreen;
   transform: scale(1.2);
+}
+
+.trusted{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.brand{
+  height: 50px;
+}
+
+.vivo{
+  height: 40px;
+}
+
+.footer{
+    background-color: #282c34;
+    color: azure;
 }
